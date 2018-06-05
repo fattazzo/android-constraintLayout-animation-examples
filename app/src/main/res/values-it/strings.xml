@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Project: android-constraintLayout-animation-examples
+  ~ File: strings.xml
+  ~
+  ~ Created by fattazzo
+  ~ Copyright © 2018 Gianluca Fattarsi. All rights reserved.
+  ~
+  ~ MIT License
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<resources>
+    <string name="app_name">Android ConstraintLayout Animation examples</string>
+
+    <string name="zoom_detail_activity">Zoom detail example</string>
+    <string name="recyclerview_parallax_activity">RecyclerView Parallax example</string>
+
+    <string name="planet_mercury">Mercurio</string>
+    <string name="planet_mercury_description">Mercurio è il pianeta più interno del sistema solare e il più vicino al Sole. È il più piccolo e la sua orbita è anche la più eccentrica, ovvero la meno circolare, degli otto pianeti. Mercurio orbita in senso diretto (in senso antiorario, come tutti gli altri pianeti del Sistema Solare) a una distanza media di 0,3871 UA dal Sole con un periodo siderale di 87,969 giorni terrestri. Mercurio è anche in risonanza orbitale-rotazionale: completa tre rotazioni intorno al proprio asse ogni due orbite attorno al Sole. (Wikipedia)</string>
+    <string name="planet_venus">Venere</string>
+    <string name="planet_venus_description">Venere è il secondo pianeta del Sistema solare in ordine di distanza dal Sole con un\'orbita quasi circolare che lo porta a compiere una rivoluzione in 224,7 giorni terrestri. Prende il nome dalla dea romana dell\'amore e della bellezza e il suo simbolo astronomico è la rappresentazione stilizzata della mano di Venere che sorregge uno specchio (Unicode: ♀). (Wikipedia)</string>
+    <string name="planet_earth">Terra</string>
+    <string name="planet_earth_description">La Terra è il terzo pianeta in ordine di distanza dal Sole e il più grande dei pianeti terrestri del sistema solare, sia per massa sia per diametro.
+
+È il luogo primigenio degli esseri umani e nel quale vivono tutte le specie viventi conosciute, l\'unico corpo planetario del sistema solare adatto a sostenere la vita come da noi concepita e conosciuta. Sulla sua superficie, si trova acqua in tutti e tre gli stati (solido, liquido e gassoso) e un'atmosfera composta in prevalenza d'azoto e ossigeno che, insieme al campo magnetico che avvolge il pianeta, protegge la Terra dai raggi cosmici e dalle radiazioni solari.  (Wikipedia)</string>
+    <string name="planet_mars">Marte</string>
+    <string name="planet_mars_description">Marte è il quarto pianeta del sistema solare in ordine di distanza dal Sole, è visibile ad occhio nudo ed è l\'ultimo dei pianeti di tipo terrestre dopo Mercurio, Venere e la Terra. Chiamato il Pianeta rosso a causa del suo colore caratteristico dovuto alle grandi quantità di ossido di ferro che lo ricoprono, Marte prende il nome dall\'omonima divinità della mitologia romana e il suo simbolo astronomico è la rappresentazione stilizzata dello scudo e della lancia del dio. (Wikipedia)</string>
+    <string name="planet_jupiter">Giove</string>
+    <string name="planet_jupiter_description">Giove (dal latino Iovem, accusativo di Iuppiter) è il quinto pianeta del sistema solare in ordine di distanza dal Sole ed il più grande di tutto il sistema planetario: la sua massa corrisponde a 2,468 volte la somma di quelle di tutti gli altri pianeti messi insieme. È classificato, al pari di Saturno, Urano e Nettuno, come gigante gassoso.
+
+Giove ha una composizione simile a quella del Sole: infatti è costituito principalmente da idrogeno ed elio con piccole quantità di altri composti, quali ammoniaca, metano ed acqua. Si ritiene che il pianeta possegga una struttura pluristratificata, con un nucleo solido, presumibilmente di natura rocciosa e costituito da carbonio e silicati di ferro, sopra il quale gravano un mantello di idrogeno metallico ed una vasta copertura atmosferica che esercitano su di esso altissime pressioni. (Wikipedia)</string>
+    <string name="planet_saturn">Saturno</string>
+    <string name="planet_saturn_description">Saturno è il sesto pianeta del sistema solare in ordine di distanza dal Sole ed il secondo pianeta più massiccio dopo Giove. Saturno, con Giove, Urano e Nettuno, è classificato come gigante gassoso, con un raggio medio 9,5 volte quello della Terra e una massa 95 volte superiore a quella terrestre. Il nome deriva dall\'omonimo dio della mitologia romana, omologo del titano greco Crono. Il suo simbolo astronomico è una rappresentazione stilizzata della falce del dio dell\'agricoltura e dello scorrere del tempo (in greco, Kronos) (♄). (Wikipedia)</string>
+    <string name="planet_uranus">Urano</string>
+    <string name="planet_uranus_description">Urano è il settimo pianeta del sistema solare in ordine di distanza dal Sole, il terzo per diametro e il quarto per massa. Il suo simbolo astronomico Unicode è U+26E2 (occasionalmente ♅, stilizzazione della lettera H iniziale di William Herschel). Porta il nome del dio greco del cielo Urano (Οὐρανός in greco antico), padre di Crono (Saturno), a sua volta padre di Zeus (Giove). (Wikipedia)</string>
+    <string name="planet_neptune">Nettuno</string>
+    <string name="planet_neptune_description">Nettuno è l\'ottavo e più lontano pianeta del Sistema solare partendo dal Sole. Si tratta del quarto pianeta più grande, considerando il suo diametro, e il terzo se si considera la sua massa. Nettuno ha 17 volte la massa della Terra ed è leggermente più massiccio del suo quasi-gemello Urano, la cui massa è uguale a 15 masse terrestri, ma è meno denso rispetto a Nettuno. Il nome del pianeta è dedicato al dio romano del mare; il suo simbolo è ♆ (Simbolo astronomico di Nettuno), una versione stilizzata del tridente di Nettuno. (Wikipedia)</string>
+
+    <string name="planet_mars_subtitle">Il pianeta rosso ♂</string>
+    <string name="planet_mars_orbital_period">Periodo orbitale 686.971 giorni</string>
+    <string name="planet_mars_volume">Volume 1.6318×10¹¹ km3</string>
+    <string name="planet_mars_mass">Massa 6.4171×10²³ kg</string>
+    <string name="planet_mars_surface_temp_min">Temp min −143 °C (−226 °F)</string>
+    <string name="planet_mars_surface_temp_max">Temp max 35 °C ( 95 °F)</string>
+    <string name="planet_mars_surface_pressure">Pressione 0.636 kPa</string>
+    <string name="planet_mars_average_orbital_speed">Velocità orbitale media 24.007 km/s</string>
+    <string name="planet_mars_info">Mars\nTap for info</string>
+</resources>
