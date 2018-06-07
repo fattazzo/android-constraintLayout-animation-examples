@@ -72,7 +72,6 @@ open class RecyclerViewParallaxActivity : AppCompatActivity() {
                     val percent = deltaPos / w.toFloat()
                     paramsImage.guidePercent = Math.max(0.3f, Math.min(0.7f, 0.5f - percent))
                     guidelineImage.layoutParams = paramsImage
-                    println(percent)
 
                     val layoutName = layout.findViewById<ConstraintLayout>(R.id.nameLayout)
                     val guidelineTitle = layoutName.findViewById<Guideline>(R.id.guidelineTitle)

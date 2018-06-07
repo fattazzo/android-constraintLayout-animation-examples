@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Project: android-constraintLayout-animation-examples
   ~ File: recycler_parallax_item_planet.xml
   ~
@@ -109,15 +108,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@android:color/holo_red_dark"
-                    android:paddingTop="20dp"
-                    android:paddingStart="16dp"
-                    android:paddingEnd="16dp"
                     android:paddingBottom="20dp"
+                    android:paddingEnd="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingTop="20dp"
                     android:textAppearance="@android:style/TextAppearance.Material.Large"
                     android:textColor="@android:color/white"
                     android:textStyle="bold"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
             </android.support.constraint.ConstraintLayout>
 
             <ScrollView
