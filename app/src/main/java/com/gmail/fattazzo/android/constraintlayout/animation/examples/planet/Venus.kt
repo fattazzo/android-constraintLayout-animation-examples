@@ -34,4 +34,4 @@ import com.gmail.fattazzo.android.constraintlayout.animation.examples.R
  *         <p/>
  *         date: 04/06/18
  */
-class Venus : Planet(2,R.string.planet_venus, R.drawable.planet_venus, R.string.planet_venus_description)
+class Venus : Planet(2, R.string.planet_venus, R.drawable.planet_venus, R.string.planet_venus_description, R.string.planet_venus_description_short)

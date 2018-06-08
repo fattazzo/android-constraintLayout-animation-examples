@@ -34,4 +34,4 @@ import com.gmail.fattazzo.android.constraintlayout.animation.examples.R
  *         <p/>
  *         date: 05/06/18
  */
-class Uranus : Planet(7,R.string.planet_uranus, R.drawable.planet_uranus, R.string.planet_uranus_description)
+class Uranus : Planet(7, R.string.planet_uranus, R.drawable.planet_uranus, R.string.planet_uranus_description, R.string.planet_uranus_description_short)

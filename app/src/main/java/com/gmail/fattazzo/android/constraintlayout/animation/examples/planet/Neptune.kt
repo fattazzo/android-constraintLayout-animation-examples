@@ -34,4 +34,4 @@ import com.gmail.fattazzo.android.constraintlayout.animation.examples.R
  *         <p/>
  *         date: 05/06/18
  */
-class Neptune : Planet(8, R.string.planet_neptune, R.drawable.planet_neptune, R.string.planet_neptune_description)
+class Neptune : Planet(8, R.string.planet_neptune, R.drawable.planet_neptune, R.string.planet_neptune_description, R.string.planet_neptune_description_short)

@@ -34,4 +34,4 @@ import com.gmail.fattazzo.android.constraintlayout.animation.examples.R
  *         <p/>
  *         date: 05/06/18
  */
-class Saturn : Planet(6,R.string.planet_saturn, R.drawable.planet_saturn, R.string.planet_saturn_description)
+class Saturn : Planet(6, R.string.planet_saturn, R.drawable.planet_saturn, R.string.planet_saturn_description, R.string.planet_saturn_description_short)

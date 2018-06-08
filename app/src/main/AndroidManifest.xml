@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Project: android-constraintLayout-animation-examples
   ~ File: AndroidManifest.xml
   ~
@@ -24,8 +23,7 @@
   ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   ~ SOFTWARE.
-  -->
-
+-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gmail.fattazzo.android.constraintlayout.animation.examples">
 
@@ -46,16 +44,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".zoomdetails.ZoomDetailActivity_"
             android:configChanges="screenSize|keyboardHidden|orientation"
             android:label="@string/zoom_detail_activity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".recyclerparallax.RecyclerViewParallaxActivity_"
             android:configChanges="screenSize|keyboardHidden|orientation"
             android:label="@string/recyclerview_parallax_activity"
             android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".zoomcarousel.ZoomCarouselActivity_"
+            android:configChanges="screenSize|keyboardHidden|orientation"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <activity android:name=".zoomcarouselvalueanimator.ZoomCarouselValueAnimatorActivity_"
+            android:configChanges="screenSize|keyboardHidden|orientation"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
     </application>
 
 </manifest>

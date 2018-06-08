@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
+  ~
   ~ Project: android-constraintLayout-animation-examples
   ~ File: activity_main.xml
   ~
@@ -24,6 +25,7 @@
   ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
   ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
   ~ SOFTWARE.
+  ~
   -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -40,9 +42,7 @@
         android:id="@+id/zoomDetailButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_margin="8dp"
         android:drawablePadding="8dp"
         android:drawableStart="@drawable/zoom"
         android:text="@string/zoom_detail_activity"
@@ -54,10 +54,7 @@
         android:id="@+id/recyclerviewParallaxButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_margin="8dp"
         android:drawablePadding="8dp"
         android:drawableStart="@drawable/view_array"
         android:text="@string/recyclerview_parallax_activity"
@@ -65,4 +62,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/zoomDetailButton" />
+
+    <Button
+        android:id="@+id/zoomCarouselButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/view_carousel"
+        android:text="@string/zoom_carousel_activity" />
+
+    <Button
+        android:id="@+id/zoomCarouselValueAnimatorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/view_carousel"
+        android:text="@string/zoom_carousel_activity_value_animator" />
 </LinearLayout>

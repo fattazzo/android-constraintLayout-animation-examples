@@ -34,4 +34,4 @@ import com.gmail.fattazzo.android.constraintlayout.animation.examples.R
  *         <p/>
  *         date: 04/06/18
  */
-class Mercury : Planet(1,R.string.planet_mercury, R.drawable.planet_mercury, R.string.planet_mercury_description)
+class Mercury : Planet(1, R.string.planet_mercury, R.drawable.planet_mercury, R.string.planet_mercury_description, R.string.planet_mercury_description_short)

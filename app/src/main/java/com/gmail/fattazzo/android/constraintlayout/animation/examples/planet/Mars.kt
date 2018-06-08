@@ -34,4 +34,4 @@ import com.gmail.fattazzo.android.constraintlayout.animation.examples.R
  *         <p/>
  *         date: 04/06/18
  */
-class Mars : Planet(4,R.string.planet_mars, R.drawable.planet_mars, R.string.planet_mars_description)
+class Mars : Planet(4, R.string.planet_mars, R.drawable.planet_mars, R.string.planet_mars_description, R.string.planet_mars_description_short)

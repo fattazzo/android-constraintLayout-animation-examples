@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Copyright scope" pattern="src[app]:com.gmail.fattazzo.android.constraintlayout.animation..*&amp;&amp;!src[app]:com.gmail.fattazzo.android.constraintlayout.animation.examples.R&amp;&amp;!src[app]:com.gmail.fattazzo.android.constraintlayout.animation.examples.BuildConfig" />
+</component>

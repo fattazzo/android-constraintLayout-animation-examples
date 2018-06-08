@@ -29,6 +29,8 @@ package com.gmail.fattazzo.android.constraintlayout.animation.examples
 
 import android.support.v7.app.AppCompatActivity
 import com.gmail.fattazzo.android.constraintlayout.animation.examples.recyclerparallax.RecyclerViewParallaxActivity_
+import com.gmail.fattazzo.android.constraintlayout.animation.examples.zoomcarousel.ZoomCarouselActivity_
+import com.gmail.fattazzo.android.constraintlayout.animation.examples.zoomcarouselvalueanimator.ZoomCarouselValueAnimatorActivity_
 import com.gmail.fattazzo.android.constraintlayout.animation.examples.zoomdetails.ZoomDetailActivity_
 import org.androidannotations.annotations.Click
 import org.androidannotations.annotations.EActivity
@@ -44,5 +46,15 @@ open class MainActivity : AppCompatActivity() {
     @Click
     fun recyclerviewParallaxButtonClicked() {
         RecyclerViewParallaxActivity_.intent(this).start()
+    }
+
+    @Click
+    fun zoomCarouselButtonClicked() {
+        ZoomCarouselActivity_.intent(this).start()
+    }
+
+    @Click
+    fun zoomCarouselValueAnimatorButtonClicked() {
+        ZoomCarouselValueAnimatorActivity_.intent(this).start()
     }
 }

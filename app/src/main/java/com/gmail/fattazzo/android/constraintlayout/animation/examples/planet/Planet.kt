@@ -32,5 +32,5 @@ package com.gmail.fattazzo.android.constraintlayout.animation.examples.planet
  *         <p/>
  *         date: 04/06/18
  */
-abstract class Planet(val number: Int, val nameResId: Int, val imageResId: Int, val descriptionResId: Int) {
+abstract class Planet(val number: Int, val nameResId: Int, val imageResId: Int, val descriptionResId: Int, val descriptionShortResId: Int) {
 }

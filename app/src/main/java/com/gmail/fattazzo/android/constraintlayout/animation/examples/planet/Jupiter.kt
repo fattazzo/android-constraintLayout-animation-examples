@@ -34,4 +34,4 @@ import com.gmail.fattazzo.android.constraintlayout.animation.examples.R
  *         <p/>
  *         date: 05/06/18
  */
-class Jupiter : Planet(5,R.string.planet_jupiter, R.drawable.planet_jupiter, R.string.planet_jupiter_description)
+class Jupiter : Planet(5, R.string.planet_jupiter, R.drawable.planet_jupiter, R.string.planet_jupiter_description, R.string.planet_jupiter_description_short)
